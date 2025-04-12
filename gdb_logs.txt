@@ -1,0 +1,11 @@
+(gdb) show commands
+   18  q
+   19  run testcases/multi_op3.s
+   20  q
+   21  run testcases/basic_add.s
+   22  q
+   23  run testcases/basic_add.s
+   24  print *val_b
+   25  q
+   26  show commands > gdb_logs.txt
+   27  show commands
